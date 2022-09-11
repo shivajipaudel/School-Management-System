@@ -97,6 +97,7 @@
             this.label2.Size = new System.Drawing.Size(83, 22);
             this.label2.TabIndex = 4;
             this.label2.Text = "Students";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // panel2
             // 
@@ -116,6 +117,7 @@
             this.label3.Size = new System.Drawing.Size(115, 22);
             this.label3.TabIndex = 4;
             this.label3.Text = "Attendance";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // pictureBox2
             // 
@@ -146,6 +148,7 @@
             this.label4.Size = new System.Drawing.Size(51, 22);
             this.label4.TabIndex = 4;
             this.label4.Text = "Fees";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // pictureBox3
             // 
@@ -208,6 +211,7 @@
             this.label1.Size = new System.Drawing.Size(91, 22);
             this.label1.TabIndex = 4;
             this.label1.Text = "Teachers";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox5
             // 
@@ -238,6 +242,7 @@
             this.label5.Size = new System.Drawing.Size(65, 22);
             this.label5.TabIndex = 4;
             this.label5.Text = "Events";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // pictureBox6
             // 
@@ -268,6 +273,7 @@
             this.label7.Size = new System.Drawing.Size(108, 22);
             this.label7.TabIndex = 4;
             this.label7.Text = "Dashboard";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // pictureBox7
             // 

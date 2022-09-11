@@ -70,5 +70,47 @@ namespace SchoolMgn
             login.Show();
             this.Hide();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Students login = new Students();
+            login.Show();
+            this.Hide();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Attendance login = new Attendance();
+            login.Show();
+            this.Hide();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Fees login = new Fees();
+            login.Show();
+            this.Hide();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Teachers login = new Teachers();
+            login.Show();
+            this.Hide();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            Event login = new Event();
+            login.Show();
+            this.Hide();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            Dashboard login = new Dashboard();
+            login.Show();
+            this.Hide();
+        }
     }
 }
